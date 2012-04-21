@@ -1,0 +1,8 @@
+Subversion pre-commit utility 
+=============================
+
+Installation
+
+in <path_to_svn>/hooks/pre-commit , you should add the line below
+
+<path_to_svn>/hooks/pre-commit-check-blacklist-words.php "$REPOS" "$TXN" >&2 || exit 1
